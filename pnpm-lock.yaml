@@ -11,11 +11,11 @@ dependencies:
   randomcolor:
     specifier: ^0.6.2
     version: 0.6.2
-  repo-color-utility-package:
-    specifier: ^1.0.3
-    version: 1.0.3
 
 devDependencies:
+  '@types/randomcolor':
+    specifier: ^0.5.7
+    version: 0.5.7
   eslint-config-upleveled:
     specifier: ^5.0.4
     version: 5.0.4(@babel/eslint-parser@7.22.15)(@next/eslint-plugin-next@13.4.19)(@types/eslint@8.44.2)(@types/node@20.5.9)(@types/react-dom@18.2.7)(@types/react@18.2.21)(@typescript-eslint/eslint-plugin@6.6.0)(@typescript-eslint/parser@6.6.0)(eslint-import-resolver-typescript@3.6.0)(eslint-plugin-import@2.28.1)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.20.0)(eslint-plugin-testing-library@5.11.1)(eslint-plugin-unicorn@48.0.1)(eslint-plugin-upleveled@2.1.9)(eslint@8.48.0)(typescript@5.2.2)
@@ -399,6 +399,10 @@ packages:
 
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
+    dev: true
+
+  /@types/randomcolor@0.5.7:
+    resolution: {integrity: sha512-LPcG96dGYRCsXlk1fslUNIg6ebEi+bKNyn84uBL/pu2cRSf5i/djD3ArJZOyzszVMVV/DB87va6pMZP+tRSl/w==}
     dev: true
 
   /@types/react-dom@18.2.7:
@@ -2427,10 +2431,6 @@ packages:
     dependencies:
       jsesc: 0.5.0
     dev: true
-
-  /repo-color-utility-package@1.0.3:
-    resolution: {integrity: sha512-KGTto6qjiAky3BcJU/HTUuTU8kxyKCHPCz8K6cu+Tc7rAB+47SGJTkl83h0ehvFz3svDezp1/pwRxCcO00/zAQ==}
-    dev: false
 
   /resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
